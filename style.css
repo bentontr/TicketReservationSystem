@@ -1,0 +1,211 @@
+body {
+
+    background: #000000;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+*{
+
+    font-family: monospace;
+
+    box-sizing: content-box;
+
+}
+
+form {
+
+    width: 500px;
+
+    border: 3px solid rgb(117, 117, 117);
+
+    padding: 15px;
+
+    background: rgb(27, 27, 27);
+
+    border-radius: 20px;
+
+}
+
+h2 {
+
+    text-align: center;
+
+    color:rgb(190, 190, 190);
+
+    margin-bottom: 40px;
+
+}
+
+h3 {
+
+    text-align: left;
+
+    color:rgb(190, 190, 190);
+
+    font-size: 30px;
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+h4 {
+
+    text-align: left;
+
+    color:rgb(190, 190, 190);
+
+    margin: 0px;
+
+    padding: 0px;
+}
+
+input {
+
+    display: block;
+
+    border: 2px solid #ccc;
+
+    width: 95%;
+
+    padding: 10px;
+
+    margin: 10px auto;
+
+    border-radius: 5px;
+
+}
+
+label {
+
+    color: #b5b5b5;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+}
+
+button {
+
+    float: right;
+
+    background: rgb(110, 34, 140);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    margin-right: 10px;
+
+    border: none;
+
+}
+
+button:hover{
+
+    opacity: .50;
+
+}
+
+button2 {
+
+
+    background: rgb(110, 34, 140);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    margin-right: 10px;
+
+    border: none;
+
+}
+
+button2:hover{
+
+    opacity: .50;
+
+}
+
+.error {
+
+   background: #F2DEDE;
+
+   color: #0c0101;
+
+   padding: 10px;
+
+   width: 95%;
+
+   border-radius: 5px;
+
+   margin: 20px auto;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: rgb(134, 3, 3);
+
+}
+
+a {
+
+    float: right;
+
+    background: rgb(183, 225, 233);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    opacity: .7;
+
+}
+
+.upcoming-events{
+    position: relative;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 14px;
+    color: #888; 
+}
+
+.upcoming-events select {
+    width: 200px;
+    min-height: 35px;
+    background: rgb(151, 70, 165);
+    border-radius: 4px;
+    border: 2px solid #ffffff
+}
