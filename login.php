@@ -4,17 +4,19 @@
 
 <head>
 
-    <title>Account Login</title>
+    <title>LOGIN</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
+    
+    <h2>Welcome to the Ticket Reservation System</h2>
 
      <form action="Validatelogin.php" method="post">
 
-        <h2>Login</h2>
+        <h3>Please log in here if you are an owner</h3>
 
         <?php if (isset($_GET['error'])) { ?>   <!--# checks if the 'error' parameter is set in the URL query string. #If it is set, it displays an error message. -->
 
@@ -28,10 +30,12 @@
 
         <label>Password</label>
 
-        <input type="password" name="password" placeholder="Password"><br> 
+        <input type="password" name="password" placeholder="Password"><br>  
 
         <button type="submit">Login</button>
-
+         
+         <a href="customerPage.php"> Reserve My Ticket</a>
+        
      </form>
 
 </body>
